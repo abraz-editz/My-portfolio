@@ -11,7 +11,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-sm border-b border-white/10">
       
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <h1 className="text-xl font-bold tracking-tight">Aren Brazil</h1>
+          <h1 className="text-xl text-amber-500 font-bold tracking-tight">Aren Brazil's Portfolio</h1>
           <div className="flex gap-8 text-sm">
             <a href="#work" className="hover:text-zinc-400 transition-colors">My work</a>
             <a href="#about" className="hover:text-zinc-400 transition-colors">About</a>
@@ -23,10 +23,10 @@ export default function Home() {
       {/* Hero */}
       <section className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="max-w-5xl text-center">
-          <h2 className="text-6xl md:text-8xl font-bold tracking-tight mb-6">
-            Cinematic 
+          <h2 className="text-6xl md:text-8xl font-bold text-amber-500 tracking-tight mb-6">
+            abraz_editz
             <br />
-            <span className="text-amber-500">Storytelling</span>
+            <span className="text-amber-500"></span>
           </h2>
           <p className="text-xl md:text-2xl text-zinc-400 mb-12 max-w-2xl mx-auto">
             Crafting visual narratives that captivate, inspire, and leave lasting impressions
