@@ -26,7 +26,7 @@ export default function Home() {
           <h2 className="text-6xl md:text-8xl font-bold tracking-tight mb-6">
             Cinematic 
             <br />
-            <span className="text-zinc-400">Storytelling</span>
+            <span className="text-amber-500">Storytelling</span>
           </h2>
           <p className="text-xl md:text-2xl text-zinc-400 mb-12 max-w-2xl mx-auto">
             Crafting visual narratives that captivate, inspire, and leave lasting impressions
@@ -58,14 +58,14 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="aspect-video bg-zinc-900 rounded-lg mb-4 overflow-hidden relative">
                 <div className="absolute inset-0 flex items-center justify-center text-zinc-600">
-                  <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
+                  {/* <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10 1818 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"/>
-                  </svg>
+                  </svg> */}
                 </div>
                 <div className="absolute inset-0 bg-white/0 group-hover: bg-white/10 transition colors" />
               </div>
               <h4 className="text-xl font-semibold mb-2 group-hover:text-zinc-300 transition-colours">
-                Project Title One
+                  <a href="https://www.instagram.com/abraz_editz/reel/DRUPTwijivs/" className="hover:text-white transition-colors">Project Title One</a>
               </h4>
               <p className="text-zinc-400">Short Film</p>
             </div>
@@ -106,14 +106,20 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="aspect-video bg-zinc-900 rounded-lg mb-4 overflow-hidden relative">
                 <div className="absolute inset-0 flex items-center justify-center text-zinc-600">
-                  <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
+                  {/* <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10 1818 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"/>
-                  </svg>
+                  </svg> */}
+                <Image 
+                src="/media/INSTA.png" 
+                width={250}
+                height={250}
+                alt="ball is life">
+              </Image>
                 </div>
                 <div className="absolute inset-0 bg-white/0 group-hover: bg-white/10 transition colors" />
               </div>
               <h4 className="text-xl font-semibold mb-2 group-hover:text-zinc-300 transition-colours">
-                Project Title Four
+                  <a href="https://www.instagram.com/abraz_editz/reel/DRUPTwijivs/" className="hover:text-white transition-colors">bball mixtapes</a>
               </h4>
               <p className="text-zinc-400">Basketball Mixtapes</p>
             </div>
