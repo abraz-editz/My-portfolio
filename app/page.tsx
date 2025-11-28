@@ -13,7 +13,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <h1 className="text-xl font-bold tracking-tight">Aren Brazil</h1>
           <div className="flex gap-8 text-sm">
-            <a href="#my work" className="hover:text-zinc-400 transition-colors">My work</a>
+            <a href="#work" className="hover:text-zinc-400 transition-colors">My work</a>
             <a href="#about" className="hover:text-zinc-400 transition-colors">About</a>
             <a href="#contact" className="hover:text-zinc-400 transition-colors">Contact</a>
           </div>
