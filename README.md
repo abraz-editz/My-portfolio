@@ -2,6 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+download github-desktop
+
+Install brew
+Install node
+
+Login to the github, clone the repository
+
+Navigate tothe directory and run npm install
+
 First, run the development server:
 
 ```bash
