@@ -109,12 +109,12 @@ export default function Home() {
                   {/* <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10 1818 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"/>
                   </svg> */}
-                <Image 
-                src="INSTA.png" 
-                width={250}
-                height={250}
+                <img 
+                src="/My-portfolio/INSTA.png" 
+                width={300}
+                height={255}
                 alt="ball is life">
-              </Image>
+              </img>
                 </div>
                 <div className="absolute inset-0 bg-white/0 group-hover: bg-white/10 transition colors" />
               </div>
